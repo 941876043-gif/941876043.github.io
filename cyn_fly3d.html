@@ -1,0 +1,1655 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1,maximum-scale=1,user-scalable=no,viewport-fit=cover">
+<title>工地 · 自由飞行</title>
+<meta name="apple-mobile-web-app-capable" content="yes">
+<meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+<meta name="apple-mobile-web-app-title" content="工地飞行">
+<meta name="mobile-web-app-capable" content="yes">
+<meta name="theme-color" content="#4a9ad8">
+<meta name="format-detection" content="telephone=no">
+<link rel="apple-touch-icon" href="data:image/png;base64,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">
+<link rel="icon" type="image/png" href="data:image/png;base64,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">
+<link rel="manifest" href="data:application/manifest+json,%7B%22name%22%3A%22%E5%B7%A5%E5%9C%B0%20%C2%B7%20%E8%87%AA%E7%94%B1%E9%A3%9E%E8%A1%8C%22%2C%22short_name%22%3A%22%E5%B7%A5%E5%9C%B0%E9%A3%9E%E8%A1%8C%22%2C%22start_url%22%3A%22.%22%2C%22display%22%3A%22fullscreen%22%2C%22orientation%22%3A%22portrait%22%2C%22background_color%22%3A%22%2304101c%22%2C%22theme_color%22%3A%22%234a9ad8%22%7D">
+<style>
+  html,body{margin:0;height:100%;overflow:hidden;
+    background:linear-gradient(180deg,#4a9ad8 0%,#7cc0ea 38%,#b7dcf4 68%,#f0f7fc 100%);
+    -webkit-tap-highlight-color:transparent;touch-action:none;
+    font-family:-apple-system,"PingFang SC",sans-serif;color:#dff0ff}
+  #wrap{position:fixed;inset:0;display:flex;align-items:center;justify-content:center}
+  canvas{display:block;border-radius:14px}
+  #fx{position:fixed;left:0;top:0;width:100%;height:100%;pointer-events:none;z-index:3;border-radius:0}
+
+  #hud{position:fixed;left:0;right:0;top:0;padding:calc(12px + env(safe-area-inset-top)) 16px 0;
+    display:flex;justify-content:space-between;pointer-events:none;
+    font-size:18px;font-weight:700;text-shadow:0 2px 8px rgba(0,0,0,.85);z-index:5}
+  #speed{font-size:13px;font-weight:400;opacity:.8;margin-top:5px;letter-spacing:.5px}
+
+  #tip{position:fixed;left:0;right:0;bottom:calc(130px + env(safe-area-inset-bottom));
+    text-align:center;font-size:12px;color:rgba(180,215,240,.65);
+    pointer-events:none;z-index:5;transition:opacity .9s}
+
+  /* 节流阀 */
+  #lever{position:fixed;right:18px;top:50%;transform:translateY(-50%);
+    width:58px;height:210px;z-index:6;touch-action:none}
+  #track{position:absolute;left:50%;transform:translateX(-50%);top:22px;bottom:10px;width:14px;
+    border-radius:9px;background:rgba(10,35,58,.55);
+    border:1px solid rgba(150,215,255,.4);overflow:hidden}
+  #tfill{position:absolute;left:0;right:0;bottom:0;height:20%;
+    background:linear-gradient(180deg,#9ee4ff,#2f7fc4)}
+  #handle{position:absolute;left:50%;bottom:20%;transform:translate(-50%,50%);
+    width:44px;height:24px;border-radius:9px;background:rgba(58,136,206,.96);
+    border:1.5px solid rgba(205,240,255,.9);box-shadow:0 2px 12px rgba(0,20,40,.55);
+    display:flex;align-items:center;justify-content:center;
+    font-size:10px;font-weight:700;color:#eefaff;letter-spacing:.5px}
+
+  /* 仪表 */
+  #gauges{margin-top:9px;width:140px}
+  .g{font-size:10.5px;font-weight:600;letter-spacing:.4px;
+     color:rgba(245,252,255,.95);text-shadow:0 1px 5px rgba(0,0,0,.75)}
+  .gbar{margin:3px 0 6px;height:6px;border-radius:4px;background:rgba(8,30,50,.5);
+     border:1px solid rgba(150,215,255,.35);overflow:hidden}
+  .gfill{height:100%;width:0%;border-radius:3px;
+     background:linear-gradient(90deg,#8ee6ff,#3d8fd0);transition:width .12s}
+  .gfill.warm{background:linear-gradient(90deg,#ffd479,#f0803c)}
+
+  #fps{font-size:11px;font-weight:500;opacity:.55;
+    text-shadow:0 1px 5px rgba(0,0,0,.75)}
+
+  #viewBtn{position:fixed;right:18px;top:calc(44px + env(safe-area-inset-top));
+    padding:8px 13px;border-radius:11px;background:rgba(10,35,58,.62);
+    border:1px solid rgba(150,215,255,.42);color:#e2f4ff;
+    font-size:12px;font-weight:600;letter-spacing:.5px;z-index:7;
+    user-select:none;backdrop-filter:blur(6px)}
+
+  #roll{position:fixed;left:20px;bottom:calc(28px + env(safe-area-inset-bottom));
+    display:flex;gap:14px;z-index:6}
+  .rbtn{width:64px;height:64px;border-radius:50%;background:rgba(10,35,58,.62);
+    border:1.5px solid rgba(150,215,255,.38);color:#dff2ff;font-size:26px;
+    display:flex;align-items:center;justify-content:center;
+    user-select:none;backdrop-filter:blur(6px)}
+  .rbtn.on{background:rgba(70,150,220,.72);border-color:rgba(200,240,255,.85)}
+
+  #startPanel{position:fixed;inset:0;display:flex;align-items:center;justify-content:center;
+    background:transparent;z-index:20;pointer-events:none}
+  #startPanel.hide{display:none}
+  #startBtn{pointer-events:auto;padding:18px 52px;border-radius:16px;font-size:20px;font-weight:700;
+    letter-spacing:6px;color:#eaf7ff;border:1.5px solid rgba(160,225,255,.7);
+    background:linear-gradient(180deg,rgba(47,127,196,.95),rgba(24,78,128,.95));
+    box-shadow:0 8px 28px rgba(0,20,40,.6)}
+
+  #horizon{position:fixed;left:0;right:0;top:0;bottom:0;pointer-events:none;z-index:4;
+    display:flex;align-items:center;justify-content:center;opacity:.45}
+  #hz{width:200px;height:2px;background:rgba(180,255,220,.85);
+    box-shadow:0 0 8px rgba(120,255,200,.7);position:relative}
+  #hz:before,#hz:after{content:'';position:absolute;top:-5px;width:2px;height:12px;
+    background:rgba(180,255,220,.85)}
+  #hz:before{left:0} #hz:after{right:0}
+
+  #flash{position:fixed;inset:0;background:#000;opacity:0;pointer-events:none;
+    z-index:8}
+
+  #fovBtn{position:fixed;right:18px;top:calc(92px + env(safe-area-inset-top));
+    padding:8px 13px;border-radius:11px;background:rgba(10,35,58,.62);
+    border:1px solid rgba(150,215,255,.42);color:#e2f4ff;
+    font-size:12px;font-weight:600;letter-spacing:.5px;z-index:7;
+    user-select:none;backdrop-filter:blur(6px)}
+
+  #err{position:fixed;inset:auto 0 0 0;padding:10px;background:#3a0e14;color:#ffd9d9;
+    font-size:11px;white-space:pre-wrap;z-index:99;max-height:40%;overflow:auto;display:none}
+</style>
+</head>
+<body>
+<div id="wrap"><canvas id="c"></canvas></div>
+<canvas id="fx"></canvas>
+
+<div id="hud">
+  <div>
+    <div id="score">💥 0</div>
+    <div id="gauges">
+      <div class="g">速度 <span id="spdNum">0</span> km/h</div>
+      <div class="gbar"><div class="gfill" id="spdBar"></div></div>
+      <div class="g">高度 <span id="altNum">0</span> m</div>
+      <div class="gbar"><div class="gfill" id="altBar"></div></div>
+      <div class="g" id="battTxt">电量 <span id="battNum">100</span>%</div>
+      <div class="gbar"><div class="gfill" id="battBar" style="width:100%"></div></div>
+    </div>
+  </div>
+  <div id="fps">-- fps</div>
+</div>
+
+<div id="tip">拖动屏幕转向 · 右侧节流阀调速</div>
+
+<div id="lever">
+  <div id="track"><div id="tfill"></div></div>
+  <div id="handle">1.0</div>
+</div>
+
+<div id="viewBtn">三人称</div>
+<div id="fovBtn">标准</div>
+<div id="startPanel"><button id="startBtn">启 动</button></div>
+
+<div id="horizon"><div id="hz"></div></div>
+
+<div id="roll">
+  <div class="rbtn" id="rollL">↺</div>
+  <div class="rbtn" id="rollR">↻</div>
+</div>
+
+<div id="flash"></div>
+<div id="err"></div>
+
+<script>
+(function(){
+"use strict";
+
+var W = 360, H = 640;
+var c = document.getElementById('c');
+var errBox = document.getElementById('err');
+function fail(m){ errBox.style.display = 'block'; errBox.textContent = String(m); }
+
+var gl = c.getContext('webgl', { antialias: true, alpha: true, depth: true })
+      || c.getContext('experimental-webgl');
+if (!gl) { fail('没有 WebGL。'); return; }
+
+function resize(){
+  var vw = window.innerWidth, vh = window.innerHeight;
+  var s = Math.min(vw / W, vh / H) * 0.98;
+  c.style.width  = (W * s) + 'px';
+  c.style.height = (H * s) + 'px';
+  var dpr = Math.min(window.devicePixelRatio || 1, 2);
+  c.width  = Math.round(W * dpr);
+  c.height = Math.round(H * dpr);
+  gl.viewport(0, 0, c.width, c.height);
+
+  if (fxC) {
+    fxC.width  = Math.round(window.innerWidth * dpr);
+    fxC.height = Math.round(window.innerHeight * dpr);
+    fxG.setTransform(dpr, 0, 0, dpr, 0, 0);
+  }
+  GRECT = c.getBoundingClientRect();
+}
+var GRECT = null;
+var fxC = document.getElementById('fx');
+var fxG = fxC ? fxC.getContext('2d') : null;
+
+window.addEventListener('resize', resize);
+window.addEventListener('orientationchange', function(){ setTimeout(resize, 140); });
+
+/* ================= 着色器 ================= */
+var VS = [
+'attribute vec3 aPos;','attribute vec3 aNrm;',
+'uniform mat4 uMVP;','uniform mat4 uModel;','uniform mat3 uNM;',
+'varying vec3 vN;','varying vec3 vW;',
+'void main(){',
+'  vec4 w = uModel * vec4(aPos, 1.0);',
+'  vW = w.xyz;',
+'  vN = uNM * aNrm;',
+'  gl_Position = uMVP * vec4(aPos, 1.0);',
+'}'
+].join('\n');
+
+var FS = [
+'precision mediump float;',
+'varying vec3 vN;','varying vec3 vW;',
+'uniform vec3 uColor;','uniform vec3 uLight;','uniform vec3 uEye;',
+'uniform float uGrid;','uniform float uGlow;','uniform vec3 uFog;',
+'void main(){',
+'  vec3 N = normalize(vN);',
+'  float d = max(dot(N, uLight), 0.0);',
+'  float back = max(dot(N, -uLight), 0.0) * 0.22;',
+'  vec3 col = uColor * (0.30 + 0.85 * d + back);',
+'  if (uGlow > 0.5) {',
+'    float rim = pow(1.0 - abs(dot(N, normalize(uEye - vW))), 2.0);',
+'    col += vec3(0.5, 0.72, 0.95) * rim * 0.95;',
+'  }',
+'  if (uGrid > 0.5) {',
+'    float h = sin(vW.x * 0.13) * sin(vW.z * 0.17) * 0.50',
+'            + sin(vW.x * 0.41 + 1.7) * sin(vW.z * 0.37 - 0.6) * 0.32',
+'            + sin((vW.x - vW.z) * 0.93) * 0.14',
+'            + sin(vW.x * 2.1) * sin(vW.z * 1.9) * 0.06;',
+'    float n = clamp(0.5 + h, 0.0, 1.0);',
+'    vec3 conc = mix(vec3(0.42, 0.43, 0.44), vec3(0.67, 0.68, 0.69), n);',
+'    float jx = abs(fract(vW.x / 6.0 + 0.5) - 0.5);',
+'    float jz = abs(fract(vW.z / 6.0 + 0.5) - 0.5);',
+'    float jd = min(jx, jz);',
+'    float pn = 0.5 + 0.5 * (sin(vW.x * 0.21 + 2.3) * sin(vW.z * 0.19 - 1.1) * 0.65',
+'                          + sin(vW.x * 0.072 - 0.8) * sin(vW.z * 0.091 + 1.9) * 0.45);',
+'    float pm = smoothstep(0.60, 0.69, pn);',
+'    vec3 vd = normalize(uEye - vW);',
+'    float fres = pow(1.0 - clamp(abs(vd.y), 0.0, 1.0), 3.0);',
+'    vec3 water = mix(vec3(0.28, 0.34, 0.39), vec3(0.74, 0.86, 0.96), 0.28 + 0.66 * fres);',
+'    float dd2 = length(vW - uEye);',
+'    conc *= mix(0.76, 1.0, smoothstep(0.0, 0.010, jd));',
+'    conc = mix(conc, water, pm * 0.92);',
+'    conc *= 1.0 - pm * 0.10 * (1.0 - fres);',
+'    conc = mix(conc, vec3(0.74, 0.77, 0.80), clamp((dd2 - 45.0) / 140.0, 0.0, 1.0));',
+'    col = conc;',
+'  }',
+'  float dist = length(vW - uEye);',
+'  float fog = 0.0;   // 雾关掉了',
+'  col = mix(col, uFog, fog);',
+'  gl_FragColor = vec4(col, 1.0);',
+'}'
+].join('\n');
+
+function compile(t, src){
+  var sh = gl.createShader(t);
+  gl.shaderSource(sh, src); gl.compileShader(sh);
+  if (!gl.getShaderParameter(sh, gl.COMPILE_STATUS)) {
+    fail('着色器编译失败：\n' + gl.getShaderInfoLog(sh)); return null;
+  }
+  return sh;
+}
+var vs = compile(gl.VERTEX_SHADER, VS);
+var fs = compile(gl.FRAGMENT_SHADER, FS);
+if (!vs || !fs) return;
+
+var prog = gl.createProgram();
+gl.attachShader(prog, vs); gl.attachShader(prog, fs); gl.linkProgram(prog);
+if (!gl.getProgramParameter(prog, gl.LINK_STATUS)) {
+  fail('链接失败：\n' + gl.getProgramInfoLog(prog)); return;
+}
+gl.useProgram(prog);
+
+var A = { pos: gl.getAttribLocation(prog, 'aPos'), nrm: gl.getAttribLocation(prog, 'aNrm') };
+var U = {
+  mvp: gl.getUniformLocation(prog, 'uMVP'),
+  model: gl.getUniformLocation(prog, 'uModel'),
+  nm: gl.getUniformLocation(prog, 'uNM'),
+  color: gl.getUniformLocation(prog, 'uColor'),
+  light: gl.getUniformLocation(prog, 'uLight'),
+  eye: gl.getUniformLocation(prog, 'uEye'),
+  grid: gl.getUniformLocation(prog, 'uGrid'),
+  glow: gl.getUniformLocation(prog, 'uGlow'),
+  fog: gl.getUniformLocation(prog, 'uFog')
+};
+
+/* ================= 网格 ================= */
+function makeMesh(V2, N2, I2){
+  var vbo = gl.createBuffer();
+  gl.bindBuffer(gl.ARRAY_BUFFER, vbo);
+  gl.bufferData(gl.ARRAY_BUFFER, new Float32Array(V2), gl.STATIC_DRAW);
+  var nbo = gl.createBuffer();
+  gl.bindBuffer(gl.ARRAY_BUFFER, nbo);
+  gl.bufferData(gl.ARRAY_BUFFER, new Float32Array(N2), gl.STATIC_DRAW);
+  var ibo = gl.createBuffer();
+  gl.bindBuffer(gl.ELEMENT_ARRAY_BUFFER, ibo);
+  gl.bufferData(gl.ELEMENT_ARRAY_BUFFER, new Uint16Array(I2), gl.STATIC_DRAW);
+  return { vbo: vbo, nbo: nbo, ibo: ibo, count: I2.length };
+}
+
+function bindMesh(m){
+  gl.bindBuffer(gl.ARRAY_BUFFER, m.vbo);
+  gl.enableVertexAttribArray(A.pos);
+  gl.vertexAttribPointer(A.pos, 3, gl.FLOAT, false, 0, 0);
+  gl.bindBuffer(gl.ARRAY_BUFFER, m.nbo);
+  gl.enableVertexAttribArray(A.nrm);
+  gl.vertexAttribPointer(A.nrm, 3, gl.FLOAT, false, 0, 0);
+  gl.bindBuffer(gl.ELEMENT_ARRAY_BUFFER, m.ibo);
+}
+
+var CUBE = (function(){
+  var faces = [
+    { n: [0,0,1],  v: [[-1,-1,1],[1,-1,1],[1,1,1],[-1,1,1]] },
+    { n: [0,0,-1], v: [[1,-1,-1],[-1,-1,-1],[-1,1,-1],[1,1,-1]] },
+    { n: [0,1,0],  v: [[-1,1,1],[1,1,1],[1,1,-1],[-1,1,-1]] },
+    { n: [0,-1,0], v: [[-1,-1,-1],[1,-1,-1],[1,-1,1],[-1,-1,1]] },
+    { n: [1,0,0],  v: [[1,-1,1],[1,-1,-1],[1,1,-1],[1,1,1]] },
+    { n: [-1,0,0], v: [[-1,-1,-1],[-1,-1,1],[-1,1,1],[-1,1,-1]] }
+  ];
+  var V2 = [], N2 = [], I2 = [];
+  faces.forEach(function(f, k){
+    f.v.forEach(function(p){ V2.push(p[0],p[1],p[2]); N2.push(f.n[0],f.n[1],f.n[2]); });
+    var b = k * 4;
+    I2.push(b, b+1, b+2, b, b+2, b+3);
+  });
+  return makeMesh(V2, N2, I2);
+})();
+
+var SPHERE = (function(){
+  var LAT = 12, LON = 18, V2 = [], N2 = [], I2 = [];
+  for (var i = 0; i <= LAT; i++) {
+    var th = Math.PI * i / LAT;
+    for (var j = 0; j <= LON; j++) {
+      var ph = 2 * Math.PI * j / LON;
+      var x = Math.sin(th)*Math.cos(ph), y = Math.cos(th), z = Math.sin(th)*Math.sin(ph);
+      V2.push(x,y,z); N2.push(x,y,z);
+    }
+  }
+  for (var a = 0; a < LAT; a++) {
+    for (var b = 0; b < LON; b++) {
+      var p0 = a*(LON+1)+b, p1 = p0+1, p2 = p0+LON+1, p3 = p2+1;
+      I2.push(p0,p2,p1, p1,p2,p3);
+    }
+  }
+  return makeMesh(V2, N2, I2);
+})();
+
+var CYL = (function(){
+  var SEG = 14, V = [], N = [], I = [];
+  // 无盖，两头能看进去（钢管正好是空的）
+  for (var i = 0; i <= SEG; i++) {
+    var a = i / SEG * Math.PI * 2;
+    var cx = Math.cos(a), cz = Math.sin(a);
+    V.push(cx, 1, cz);  N.push(cx, 0.25, cz);
+    V.push(cx, -1, cz); N.push(cx, 0.25, cz);
+  }
+  for (var j = 0; j < SEG; j++) {
+    var b = j * 2;
+    I.push(b, b + 1, b + 3, b, b + 3, b + 2);
+  }
+  return makeMesh(V, N, I);
+})();
+
+var CONE = (function(){
+  var SEG = 14, V = [], N = [], I = [];
+  for (var i = 0; i <= SEG; i++) {
+    var a = i / SEG * Math.PI * 2;
+    var cx = Math.cos(a), cz = Math.sin(a);
+    V.push(0, 1, 0);   N.push(cx * 0.7, 0.5, cz * 0.7);
+    V.push(cx, -1, cz); N.push(cx * 0.7, 0.5, cz * 0.7);
+  }
+  for (var j = 0; j < SEG; j++) {
+    var b = j * 2;
+    I.push(b, b + 2, b + 3, b, b + 3, b + 1);
+  }
+  return makeMesh(V, N, I);
+})();
+
+var PLANE = makeMesh(
+  [-1,0,-1, 1,0,-1, 1,0,1, -1,0,1],
+  [0,1,0, 0,1,0, 0,1,0, 0,1,0],
+  [0,1,2, 0,2,3]
+);
+
+/* ================= 矩阵 ================= */
+function m4persp(fovy, aspect, near, far){
+  var f = 1 / Math.tan(fovy/2), nf = 1 / (near - far);
+  return new Float32Array([ f/aspect,0,0,0, 0,f,0,0, 0,0,(far+near)*nf,-1, 0,0,2*far*near*nf,0 ]);
+}
+function m4mul(a, b){
+  var o = new Float32Array(16);
+  for (var ci = 0; ci < 4; ci++) for (var r = 0; r < 4; r++) {
+    o[ci*4+r] = a[r]*b[ci*4] + a[4+r]*b[ci*4+1] + a[8+r]*b[ci*4+2] + a[12+r]*b[ci*4+3];
+  }
+  return o;
+}
+function m4trs(tx,ty,tz,rz,sx,sy,sz){
+  var c1 = Math.cos(rz), s1 = Math.sin(rz);
+  return new Float32Array([
+    c1*sx, s1*sx, 0, 0,
+    -s1*sy, c1*sy, 0, 0,
+    0, 0, sz, 0,
+    tx, ty, tz, 1
+  ]);
+}
+function m4basis(R, Up, F, tx, ty, tz){
+  return new Float32Array([
+    R[0],R[1],R[2],0,
+    Up[0],Up[1],Up[2],0,
+    -F[0],-F[1],-F[2],0,
+    tx,ty,tz,1
+  ]);
+}
+var NM = new Float32Array(9);
+function normalMat(m){
+  var c0x=m[0],c0y=m[1],c0z=m[2], c1x=m[4],c1y=m[5],c1z=m[6], c2x=m[8],c2y=m[9],c2z=m[10];
+  var l0 = c0x*c0x+c0y*c0y+c0z*c0z || 1;
+  var l1 = c1x*c1x+c1y*c1y+c1z*c1z || 1;
+  var l2 = c2x*c2x+c2y*c2y+c2z*c2z || 1;
+  NM[0]=c0x/l0; NM[1]=c0y/l0; NM[2]=c0z/l0;
+  NM[3]=c1x/l1; NM[4]=c1y/l1; NM[5]=c1z/l1;
+  NM[6]=c2x/l2; NM[7]=c2y/l2; NM[8]=c2z/l2;
+  return NM;
+}
+
+function rotX(a){ var c1=Math.cos(a), s1=Math.sin(a);
+  return new Float32Array([1,0,0,0, 0,c1,s1,0, 0,-s1,c1,0, 0,0,0,1]); }
+function rotY(a){ var c1=Math.cos(a), s1=Math.sin(a);
+  return new Float32Array([c1,0,-s1,0, 0,1,0,0, s1,0,c1,0, 0,0,0,1]); }
+function rotZ(a){ var c1=Math.cos(a), s1=Math.sin(a);
+  return new Float32Array([c1,s1,0,0, -s1,c1,0,0, 0,0,1,0, 0,0,0,1]); }
+function scaleM(sx,sy,sz){
+  return new Float32Array([sx,0,0,0, 0,sy,0,0, 0,0,sz,0, 0,0,0,1]); }
+function partM(tx,ty,tz, rx,ry,rz, sx,sy,sz){
+  var m = m4mul(rotY(ry), m4mul(rotX(rx), rotZ(rz)));
+  m = m4mul(m, scaleM(sx,sy,sz));
+  m[12]=tx; m[13]=ty; m[14]=tz;
+  return m;
+}
+
+var PROJ = m4persp(70 * Math.PI / 180, W / H, 0.08, 260);
+var VP = PROJ;
+
+var COLOR = {};
+function col(hex){
+  if (COLOR[hex]) return COLOR[hex];
+  var v = new Float32Array([
+    parseInt(hex.substr(1,2),16)/255,
+    parseInt(hex.substr(3,2),16)/255,
+    parseInt(hex.substr(5,2),16)/255
+  ]);
+  COLOR[hex] = v; return v;
+}
+
+function drawMesh(mesh, model, hex, grid, glow){
+  bindMesh(mesh);
+  gl.uniformMatrix4fv(U.mvp, false, m4mul(VP, model));
+  gl.uniformMatrix4fv(U.model, false, model);
+  gl.uniformMatrix3fv(U.nm, false, normalMat(model));
+  gl.uniform1f(U.grid, grid ? 1 : 0);
+  gl.uniform1f(U.glow, glow ? 1 : 0);
+  gl.uniform3fv(U.color, col(hex));
+  gl.drawElements(gl.TRIANGLES, mesh.count, gl.UNSIGNED_SHORT, 0);
+}
+
+/* ================= 状态 ================= */
+var FOG = new Float32Array([0.75, 0.87, 0.96]);
+var LIGHT = new Float32Array([0.36, 0.82, 0.44]);
+var SEA_Y = -7.0;
+
+/* 鲸的位置（相机前下方）与盒子半长 —— 画图与碰撞共用 */
+var WHALE_DIST = 6.2, WHALE_DROP = 1.45;
+
+/* 机身在世界里的位置。第一人称时它就是相机本身 */
+function whalePos(){
+  if (S.first) return [S.px, S.py, S.pz];
+  return [ S.px + F[0]*WHALE_DIST - Up[0]*WHALE_DROP,
+           S.py + F[1]*WHALE_DIST - Up[1]*WHALE_DROP,
+           S.pz + F[2]*WHALE_DIST - Up[2]*WHALE_DROP ];
+}
+var BOX_HX = 0.30, BOX_HY = 0.20, BOX_HZ = 0.85;
+
+var S = {
+  t: 0,
+  yaw: 0, pitch: -0.04,
+  px: 0, py: 1.5, pz: 44,
+  throttle: 1,          // 0.4 ~ 6.0
+  vx: 0, vy: 0, vz: 0,  // 世界坐标里的速度向量（惯性就靠它）
+  yawV: 0, pitchV: 0,   // 角速度
+  roll: 0,              // 横滚（视觉）
+  hudTick: 0,
+  score: 0,
+  objs: [],
+  static: [],
+  first: false,
+  dead: false, boomT: 0, parts: [], rollIn: 0, wide: false,
+  started: false,
+  batt: 100,
+  glitch: 0,
+  wrecks: [],
+  convoy: { a: 0.6, alive: true, deadT: 0 }
+};
+
+var R = [1,0,0], Up = [0,1,0], F = [0,0,-1];
+var V = new Float32Array(16);
+
+var R2 = [1,0,0], U2 = [0,1,0];   // 带横滚的视觉基（相机和机身都用这个）
+
+function rotateVec(v, ax, ay, az, ang){
+  var c1 = Math.cos(ang), s1 = Math.sin(ang);
+  var dot = v[0]*ax + v[1]*ay + v[2]*az;
+  var cx = ay*v[2] - az*v[1];
+  var cy2 = az*v[0] - ax*v[2];
+  var cz = ax*v[1] - ay*v[0];
+  v[0] = v[0]*c1 + cx*s1 + ax*dot*(1-c1);
+  v[1] = v[1]*c1 + cy2*s1 + ay*dot*(1-c1);
+  v[2] = v[2]*c1 + cz*s1 + az*dot*(1-c1);
+}
+
+function frame(){
+  // 横滚：右向量和上向量绕机头转一下（只是视觉，不改物理基）
+  var cr = Math.cos(S.roll), sr = Math.sin(S.roll);
+  R2[0] = R[0]*cr - Up[0]*sr;  R2[1] = R[1]*cr - Up[1]*sr;  R2[2] = R[2]*cr - Up[2]*sr;
+  U2[0] = Up[0]*cr + R[0]*sr;  U2[1] = Up[1]*cr + R[1]*sr;  U2[2] = Up[2]*cr + R[2]*sr;
+
+  V[0]=R2[0]; V[1]=U2[0]; V[2]=-F[0]; V[3]=0;
+  V[4]=R2[1]; V[5]=U2[1]; V[6]=-F[1]; V[7]=0;
+  V[8]=R2[2]; V[9]=U2[2]; V[10]=-F[2]; V[11]=0;
+  V[12]= -(R2[0]*S.px + R2[1]*S.py + R2[2]*S.pz);
+  V[13]= -(U2[0]*S.px + U2[1]*S.py + U2[2]*S.pz);
+  V[14]=  (F[0]*S.px + F[1]*S.py + F[2]*S.pz);
+  V[15]= 1;
+
+  VP = m4mul(PROJ, V);
+}
+
+function rnd(a, b){ return a + Math.random()*(b-a); }
+
+/* 对整栋楼做盒子碰撞 */
+function collideStatic(){
+  // 机身是有朝向的盒子：把它的三个半长投影到世界轴上，得到一个"加厚"的包围盒
+  var exW = Math.abs(R[0])*BOX_HX + Math.abs(Up[0])*BOX_HY + Math.abs(F[0])*BOX_HZ + 0.10;
+  var eyW = Math.abs(R[1])*BOX_HX + Math.abs(Up[1])*BOX_HY + Math.abs(F[1])*BOX_HZ + 0.10;
+  var ezW = Math.abs(R[2])*BOX_HX + Math.abs(Up[2])*BOX_HY + Math.abs(F[2])*BOX_HZ + 0.10;
+
+  for (var i = 0; i < S.static.length; i++) {
+    var b = S.static[i];
+
+    var wp = whalePos();
+    var dx = wp[0] - b.x, dy = wp[1] - b.y, dz = wp[2] - b.z;
+
+    var ex = b.hx + exW, ey = b.hy + eyW, ez = b.hz + ezW;
+    if (Math.abs(dx) >= ex || Math.abs(dy) >= ey || Math.abs(dz) >= ez) continue;
+
+    // 谁穿得最浅就往哪边推
+    var pxd = ex - Math.abs(dx);
+    var pyd = ey - Math.abs(dy);
+    var pzd = ez - Math.abs(dz);
+
+    if (pyd <= pxd && pyd <= pzd) {
+      var sy = dy >= 0 ? 1 : -1;
+      S.py += pyd * sy;
+      if (S.vy * sy < 0) S.vy = -S.vy * 0.22;
+    } else if (pxd <= pzd) {
+      var sx = dx >= 0 ? 1 : -1;
+      S.px += pxd * sx;
+      if (S.vx * sx < 0) S.vx = -S.vx * 0.22;
+    } else {
+      var sz = dz >= 0 ? 1 : -1;
+      S.pz += pzd * sz;
+      if (S.vz * sz < 0) S.vz = -S.vz * 0.22;
+    }
+  }
+}
+
+/* 机身相对"水平正立"滚了多少度（横滚角，绕机头） */
+function rollAngle(){
+  var d = F[1];
+  var rx = -F[0] * d, ry = 1 - F[1] * d, rz = -F[2] * d;
+  var rl = Math.sqrt(rx*rx + ry*ry + rz*rz);
+  if (rl < 0.001) return 0;              // 机头竖直，参考方向塌了
+  rx /= rl; ry /= rl; rz /= rl;
+
+  var cosA = Up[0]*rx + Up[1]*ry + Up[2]*rz;
+  var cx = ry*Up[2] - rz*Up[1];
+  var cy2 = rz*Up[0] - rx*Up[2];
+  var cz = rx*Up[1] - ry*Up[0];
+  var sinA = cx*F[0] + cy2*F[1] + cz*F[2];
+  return Math.atan2(sinA, cosA);
+}
+
+/* ===== 爆炸 ===== */
+var FLASH = document.getElementById('flash');
+function flashScreen(){
+  // 撞上先黑屏，再慢慢透出来
+  FLASH.style.transition = 'none';
+  FLASH.style.opacity = '1';
+  setTimeout(function(){
+    FLASH.style.transition = 'opacity 1.15s ease-out';
+    FLASH.style.opacity = '0';
+  }, 240);
+}
+
+function boom(x, y, z, pts){
+  if (S.dead) return;
+  S.dead = true;
+  S.boomT = 0;
+  S.score += (pts || 5);
+  syncHUD();
+  flashScreen();
+  boomSound();
+
+  for (var i = 0; i < 30; i++) {
+    var a = Math.random() * 6.283;
+    var b = Math.acos(2 * Math.random() - 1);
+    var sp = 0.12 + Math.random() * 0.45;
+    S.parts.push({
+      x: x, y: y, z: z,
+      vx: Math.cos(a) * Math.sin(b) * sp,
+      vy: Math.cos(b) * sp + 0.06,
+      vz: Math.sin(a) * Math.sin(b) * sp,
+      r: 0.20 + Math.random() * 0.55,
+      life: 34 + Math.random() * 26,
+      max: 60,
+      c: ['#ffd27a', '#ff9b45', '#e2552f', '#fdf3cf'][i % 4]
+    });
+  }
+}
+
+function stepParts(k){
+  for (var i = S.parts.length - 1; i >= 0; i--) {
+    var p2 = S.parts[i];
+    p2.x += p2.vx * k;
+    p2.y += p2.vy * k;
+    p2.z += p2.vz * k;
+    p2.vy -= 0.012 * k;
+    p2.vx *= Math.pow(0.97, k);
+    p2.vz *= Math.pow(0.97, k);
+    p2.life -= k;
+    if (p2.life <= 0) S.parts.splice(i, 1);
+  }
+}
+
+/* ===== 军用绿色车队（吉普 + 货车），绕着楼慢慢开 ===== */
+var CONVOY_R = 100;
+
+function convoyAt(i){
+  var a = S.convoy.a - i * 0.085;
+  return { x: Math.cos(a) * CONVOY_R, z: Math.sin(a) * CONVOY_R, a: a };
+}
+
+var VEH = [
+  { hx: 1.05, hy: 0.85, hz: 2.15 },   // 吉普
+  { hx: 1.15, hy: 1.05, hz: 3.40 }    // 货车
+];
+
+function checkConvoy(){
+  if (S.dead || !S.convoy.alive) return;
+  var wp = whalePos();
+  var pad = 0.55;
+
+  for (var i = 0; i < 2; i++) {
+    var p2 = convoyAt(i);
+    var v = VEH[i];
+    var cy = SEA_Y + v.hy;
+
+    if (Math.abs(wp[0] - p2.x) < v.hx + pad &&
+        Math.abs(wp[1] - cy)    < v.hy + pad &&
+        Math.abs(wp[2] - p2.z) < v.hz + pad) {
+      // 车队被炸掉，人也被炸掉
+      S.convoy.alive = false;
+      S.convoy.deadT = 0;
+      // 两辆都留下一摊残骸，而且不消失
+      for (var k2 = 0; k2 < 2; k2++) {
+        var pk = convoyAt(k2);
+        S.wrecks.push({
+          t: k2,
+          x: pk.x, z: pk.z,
+          ry: Math.PI - pk.a,
+          tilt: (Math.random() - 0.5) * 0.35
+        });
+      }
+      boom(p2.x, cy, p2.z, 10);
+      return;
+    }
+  }
+}
+
+function stepConvoy(k){
+  if (S.convoy.alive) {
+    S.convoy.a += 0.0016 * k;
+  } else {
+    S.convoy.deadT += k;
+    if (S.convoy.deadT > 80) {
+      S.convoy.alive = true;
+      S.convoy.deadT = 0;
+      S.convoy.a += 1.1 + Math.random() * 2.0;   // 换个位置刷出来
+    }
+  }
+}
+
+var startPanel = document.getElementById('startPanel');
+function showStart(){ if (startPanel) startPanel.classList.remove('hide'); }
+function hideStart(){ if (startPanel) startPanel.classList.add('hide'); }
+
+function launch(){
+  // 位置在上一轮结束时就已经刷好了，这里只管起飞
+  initAudio();
+  S.started = true;
+  hideStart();
+}
+
+/* ===== 出生点：楼里随便一层 ===== */
+function spawnRandom(){
+  var f = Math.floor(Math.random() * 8);
+  var y = SEA_Y + 10 * (f + 1) + 2.2;
+  S.px = (Math.random() * 2 - 1) * 34;
+  S.py = y;
+  S.pz = (Math.random() * 2 - 1) * 24;
+
+  S.vx = 0; S.vy = 0; S.vz = 0;
+  S.yawV = 0; S.pitchV = 0; S.roll = 0; S.rollIn = 0;
+  R[0] = 1; R[1] = 0; R[2] = 0;
+  Up[0] = 0; Up[1] = 1; Up[2] = 0;
+  F[0] = 0; F[1] = 0; F[2] = -1;
+
+  S.parts.length = 0;
+  S.dead = false;
+  S.boomT = 0;
+  S.batt = 100;
+}
+
+/* 机身上下边界：不让它插进地里，也别飞出天顶 */
+function clampWhale(){
+  var wp = whalePos();
+  var lowY = SEA_Y + BOX_HY + 0.05;
+  if (wp[1] < lowY) {
+    S.py += (lowY - wp[1]);
+    if (S.vy < 0) S.vy = 0;
+  }
+  if (wp[1] > 130) {
+    S.py -= (wp[1] - 130);
+    if (S.vy > 0) S.vy = 0;
+  }
+}
+
+function placeAhead(o, far){
+  var d = far ? rnd(55, 165) : rnd(45, 130);
+  var side = rnd(-45, 45);
+
+  // 水平落点：按机头的水平朝向算，不受俯仰影响
+  var hl = Math.sqrt(F[0]*F[0] + F[2]*F[2]) || 1;
+  var fwdX = F[0] / hl, fwdZ = F[2] / hl;
+  var rgtX = -fwdZ, rgtZ = fwdX;
+
+  o.x = S.px + fwdX * d + rgtX * side;
+  o.z = S.pz + fwdZ * d + rgtZ * side;
+
+  if (o.kind === 'rice' || o.kind === 'meat') {
+    o.y = SEA_Y + rnd(4, 32);          // 米饭飘在工地上空
+  } else {
+    o.y = SEA_Y + rnd(0.4, 2.2);       // 工地上的东西贴着地放
+  }
+
+  o.rot = Math.random() * 6.28;
+  o.spin = (o.kind === 'rice' || o.kind === 'meat') ? rnd(-0.01, 0.01) : 0;
+  o.bob = Math.random() * 6.28;
+}
+
+/* 一整栋没盖完的楼：中间留天井，还有几层是空的 */
+function buildSite(){
+  S.objs = [];
+  S.static = [];
+
+  var BASE = SEA_Y;
+  var HX = 46, HZ = 34;       // 楼的半宽 / 半深
+  var FH = 10.0;              // 层高
+  var FN = 8;                 // 层数
+  var GX = 10, GZ = 9;        // 天井半宽（能直接飞上去）
+  var ST = 0.30;              // 楼板半厚
+
+  function slab(cx, cz, hx, hz, y){
+    S.static.push({ x: cx, y: y, z: cz, hx: hx, hy: ST, hz: hz, c: '#c3c0b8' });
+  }
+
+  // 楼板：每层都按同样的 6 米层高。第 3 层和第 6 层不浇楼板，只留一圈边梁（空层）
+  for (var f = 0; f < FN; f++) {
+    var y = BASE + FH * (f + 1);
+    var open = (f === 2 || f === 5);
+
+    if (open) {
+      // 空层：只有贴外墙的一圈窄边梁，整层是通的
+      var bw = 1.2;
+      slab(0, -(HZ - bw / 2), HX, bw / 2, y);   // 北
+      slab(0,  (HZ - bw / 2), HX, bw / 2, y);   // 南
+      slab(-(HX - bw / 2), 0, bw / 2, HZ - bw, y);  // 西
+      slab( (HX - bw / 2), 0, bw / 2, HZ - bw, y);  // 东
+    } else {
+      slab(0, -(HZ + GZ) / 2, HX, (HZ - GZ) / 2, y);   // 北
+      slab(0,  (HZ + GZ) / 2, HX, (HZ - GZ) / 2, y);   // 南
+      slab(-(HX + GX) / 2, 0, (HX - GX) / 2, GZ, y);   // 西
+      slab( (HX + GX) / 2, 0, (HX - GX) / 2, GZ, y);   // 东
+    }
+  }
+
+  // 柱子：一直通到顶
+  var colY = BASE + FH * FN / 2;
+  var colH = FH * FN / 2;
+  var xs = [-HX + 1, -HX / 2, HX / 2, HX - 1];
+  var zs = [-HZ + 1, -HZ / 2, HZ / 2, HZ - 1];
+  var i, j;
+  for (i = 0; i < xs.length; i++) {
+    for (j = 0; j < zs.length; j++) {
+      S.static.push({ x: xs[i], y: colY, z: zs[j], hx: 0.75, hy: colH, hz: 0.75, c: '#a9a6a0' });
+    }
+  }
+  // 天井四角的柱子
+  for (i = -1; i <= 1; i += 2) {
+    for (j = -1; j <= 1; j += 2) {
+      S.static.push({ x: i * 3, y: colY, z: j * 3, hx: 0.6, hy: colH, hz: 0.6, c: '#b2afa8' });
+    }
+  }
+
+  // 外围：每层一小段矮墙（没砌完的样子）
+  for (var g = 0; g < FN; g++) {
+    var wy = BASE + FH * g + 0.55;
+    if (g % 2 === 0) {
+      S.static.push({ x: -HX + 0.4, y: wy, z: 0, hx: 0.4, hy: 0.55, hz: HZ - 6, c: '#bbb8b0' });
+    } else {
+      S.static.push({ x: HX - 0.4, y: wy, z: 0, hx: 0.4, hy: 0.55, hz: HZ - 6, c: '#bbb8b0' });
+    }
+  }
+
+  // 车队不在这里摆，它绕着楼开（见 convoyAt）
+
+  // 顶上两处堆着的钢筋/模板，凑个工地味
+  S.static.push({ x: -28, y: BASE + FH * FN + 0.4, z: -18, hx: 6, hy: 0.2, hz: 1.2, c: '#8a6a45' });
+  S.static.push({ x: 26, y: BASE + FH * FN + 0.4, z: 16, hx: 5, hy: 0.2, hz: 1.0, c: '#8a6a45' });
+}
+
+/* ================= 更新 ================= */
+function update(k){
+  S.t += k;   // 动画时钟也按真实时间走
+
+  // ---- 没按启动键：什么都不动 ----
+  if (!S.started) {
+    stepParts(k);
+    stepConvoy(k);
+    return;
+  }
+
+  // ---- 爆炸中：锁住操作，放完动画回到"待启动" ----
+  if (S.dead) {
+    S.boomT += k;
+    stepParts(k);
+    stepConvoy(k);
+    if (S.boomT > 55) {
+      S.dead = false;
+      S.boomT = 0;
+      S.started = false;
+      spawnRandom();      // 先把下一轮的位置刷好
+      showStart();        // 再等你按启动出去
+    }
+    S.hudTick += k;
+    if (S.hudTick > 8) { S.hudTick = 0; syncGauges(); }
+    return;
+  }
+
+  stepConvoy(k);
+
+  // ---- 电池 ----
+  S.batt -= (0.8 + 0.35 * S.throttle) * k / 60;
+  if (S.batt <= 0) {
+    S.batt = 0;
+    boom(S.px, S.py, S.pz, 0);
+  }
+
+  // ---- 转动惯性：按一下不会立刻停，会滑一点 ----
+  if (keyLook.left)  S.yawV   -= 0.011 * k;
+  if (keyLook.right) S.yawV   += 0.011 * k;
+  if (keyLook.up)    S.pitchV += 0.009 * k;
+  if (keyLook.down)  S.pitchV -= 0.009 * k;
+
+  var damp = Math.pow(0.90, k);
+  S.yawV *= damp;
+  S.pitchV *= damp;
+  S.yawV = Math.max(-0.14, Math.min(0.14, S.yawV));
+  S.pitchV = Math.max(-0.12, Math.min(0.12, S.pitchV));
+
+  // 朝向用"绕轴转"来累积：偏航绕世界的竖轴，俯仰绕机身自己的右向
+  // 这样俯仰没有上限，可以一直翻过去
+  var dyaw = S.yawV * k;
+  if (dyaw) {
+    rotateVec(F, 0, 1, 0, -dyaw);
+    rotateVec(R, 0, 1, 0, -dyaw);
+  }
+  var dpit = S.pitchV * k;
+  if (dpit) {
+    rotateVec(F, R[0], R[1], R[2], dpit);
+    rotateVec(Up, R[0], R[1], R[2], dpit);
+  }
+  // 重新正交化，免得误差累积把基拧歪
+  Up[0] = R[1]*F[2] - R[2]*F[1];
+  Up[1] = R[2]*F[0] - R[0]*F[2];
+  Up[2] = R[0]*F[1] - R[1]*F[0];
+  var ul = Math.sqrt(Up[0]*Up[0] + Up[1]*Up[1] + Up[2]*Up[2]) || 1;
+  Up[0] /= ul; Up[1] /= ul; Up[2] /= ul;
+  R[0] = F[1]*Up[2] - F[2]*Up[1];
+  R[1] = F[2]*Up[0] - F[0]*Up[2];
+  R[2] = F[0]*Up[1] - F[1]*Up[0];
+
+  // ---- 滚转 ----
+  if (S.rollIn) {
+    // 按住时自己滚
+    var rr = S.rollIn * 0.055 * k;
+    rotateVec(R, F[0], F[1], F[2], rr);
+    rotateVec(Up, F[0], F[1], F[2], rr);
+  } else {
+    // 松手后自动接管：过了 90° 就滚完到 180°，没过就滚回 0°
+    var ang = rollAngle();
+    var HALF = Math.PI / 2;
+    var target = (Math.abs(ang) > HALF - 0.05) ? (ang >= 0 ? Math.PI : -Math.PI) : 0;
+    var diff = target - ang;
+    while (diff > Math.PI) diff -= Math.PI * 2;
+    while (diff < -Math.PI) diff += Math.PI * 2;
+    if (Math.abs(diff) > 0.015) {
+      var step = Math.sign(diff) * Math.min(Math.abs(diff), 0.050 * k);
+      rotateVec(R, F[0], F[1], F[2], step);
+      rotateVec(Up, F[0], F[1], F[2], step);
+    }
+  }
+
+  // ---- 横滚：转弯时压坡度 ----
+  var rollT = Math.max(-0.55, Math.min(0.55, -S.yawV * 6.0));
+  S.roll += (rollT - S.roll) * Math.min(1, 0.10 * k);
+
+  // ---- 飞行惯性：推力沿机头，重力始终向下，阻力拖住 ----
+  var acc = 0.0055 * S.throttle;      // 推力
+  var lift = acc * 0.10;               // 机身自身那点升力，取推力的 0.1
+  var G = 0.0027;                      // 重力：≈9.7 m/s²（1 单位≈1 米，60 帧）
+
+  S.vx += (F[0]*acc + Up[0]*lift) * k;
+  S.vy += (F[1]*acc + Up[1]*lift - G) * k;
+  S.vz += (F[2]*acc + Up[2]*lift) * k;
+
+  var air = Math.pow(0.986, k);       // 空气阻力
+  S.vx *= air; S.vy *= air; S.vz *= air;
+
+  var spd3 = Math.sqrt(S.vx*S.vx + S.vy*S.vy + S.vz*S.vz);
+  var MAXV = 1.90;        // 速度硬上限
+  if (spd3 > MAXV) { var f0 = MAXV / spd3; S.vx *= f0; S.vy *= f0; S.vz *= f0; spd3 = MAXV; }
+  S.speed = spd3;
+
+  // 位移拆成小步走，速度再快也不会一帧穿过楼板
+  var moveLen = spd3 * k;
+  var steps = Math.ceil(moveLen / 0.30);
+  if (steps < 1) steps = 1;
+  if (steps > 12) steps = 12;
+  var sdx = S.vx * k / steps, sdy = S.vy * k / steps, sdz = S.vz * k / steps;
+
+  for (var st = 0; st < steps; st++) {
+    S.px += sdx;
+    S.py += sdy;
+    S.pz += sdz;
+    collideStatic();     // 每小步都判定，薄楼板撞不穿
+    clampWhale();        // 机身不许钻进地面、也不许冲过天顶
+  }
+
+  // 回收物体
+  var i, o, dot;
+  for (i = 0; i < S.objs.length; i++) {
+    o = S.objs[i];
+    o.rot += o.spin * k;
+    o.bob += 0.02 * k;
+
+    dot = (o.x - S.px)*F[0] + (o.y - S.py)*F[1] + (o.z - S.pz)*F[2];
+    if (dot < -28) { placeAhead(o, false); continue; }
+
+    if (o.kind === 'rice' || o.kind === 'meat') {
+      // 换到鲸的局部坐标里，按盒子范围判定：碰到就吃
+      var wp2 = whalePos();
+      var wxp = wp2[0], wyp = wp2[1], wzp = wp2[2];
+
+      var dx = o.x - wxp, dy = o.y - wyp, dz = o.z - wzp;
+      var lx =  dx*R[0] + dy*R[1] + dz*R[2];
+      var ly =  dx*Up[0] + dy*Up[1] + dz*Up[2];
+      var lz = -(dx*F[0] + dy*F[1] + dz*F[2]);
+
+      var rad = (o.kind === 'rice' ? 0.34 : 0.44);
+      if (Math.abs(lx) < BOX_HX + rad &&
+          Math.abs(ly) < BOX_HY + rad &&
+          Math.abs(lz) < BOX_HZ + rad) {
+        S.score += (o.kind === 'rice' ? 1 : 3);
+        placeAhead(o, false);
+        syncHUD();
+      }
+    }
+  }
+
+  checkConvoy();
+  stepParts(k);
+
+  S.hudTick += k;
+  if (S.hudTick > 8) { S.hudTick = 0; syncGauges(); }
+}
+
+/* ================= 绘制 ================= */
+function drawSea(){
+  // 海面 / 地板：跟着相机走，但格子按世界坐标算，所以看起来是无限的
+  var m = m4trs(S.px, SEA_Y, S.pz, 0, 200, 1, 200);
+  drawMesh(PLANE, m, '#eaf5fd', true, false);
+}
+
+function drawObj(o){
+  var y = o.y;
+  var x = o.x, z = o.z;
+
+  if (o.kind === 'crane') {
+    // 塔吊：立柱 + 大臂 + 平衡臂 + 吊绳吊钩
+    drawMesh(CUBE, m4trs(x, y + 7.0, z, o.rot, 0.42, 7.0, 0.42), '#e0b23c', false, false);
+    drawMesh(CUBE, m4trs(x, y + 14.2, z, o.rot, 5.2, 0.26, 0.34), '#e8bd4a', false, false);
+    drawMesh(CUBE, m4trs(x - Math.cos(o.rot)*2.0, y + 14.2, z + Math.sin(o.rot)*2.0, o.rot, 2.0, 0.26, 0.34), '#cfa02f', false, false);
+    drawMesh(CUBE, m4trs(x - Math.cos(o.rot)*2.4, y + 14.6, z + Math.sin(o.rot)*2.4, o.rot, 0.7, 0.5, 0.7), '#8a8f95', false, false);
+    drawMesh(CUBE, m4trs(x + Math.cos(o.rot)*5.6, y + 12.4, z - Math.sin(o.rot)*5.6, o.rot, 0.07, 1.7, 0.07), '#5b5f64', false, false);
+    drawMesh(CUBE, m4trs(x + Math.cos(o.rot)*5.6, y + 10.6, z - Math.sin(o.rot)*5.6, o.rot, 0.34, 0.22, 0.34), '#b9bdc2', false, false);
+    drawMesh(CUBE, m4trs(x, y + 12.8, z, o.rot, 0.55, 0.55, 0.55), '#9aa0a6', false, false);
+  } else if (o.kind === 'scaffold') {
+    // 脚手架：四根立杆 + 三层横杆
+    var sx = 1.5, sz = 1.3, hh = 7.0;
+    drawMesh(CUBE, m4trs(x - sx, y + hh/2, z - sz, 0, 0.07, hh/2, 0.07), '#9aa3ab', false, false);
+    drawMesh(CUBE, m4trs(x + sx, y + hh/2, z - sz, 0, 0.07, hh/2, 0.07), '#9aa3ab', false, false);
+    drawMesh(CUBE, m4trs(x - sx, y + hh/2, z + sz, 0, 0.07, hh/2, 0.07), '#9aa3ab', false, false);
+    drawMesh(CUBE, m4trs(x + sx, y + hh/2, z + sz, 0, 0.07, hh/2, 0.07), '#9aa3ab', false, false);
+    for (var lv = 1; lv <= 3; lv++) {
+      var ly = y + lv * (hh / 3);
+      drawMesh(CUBE, m4trs(x, ly, z - sz, 0, sx, 0.06, 0.06), '#8d959d', false, false);
+      drawMesh(CUBE, m4trs(x, ly, z + sz, 0, sx, 0.06, 0.06), '#8d959d', false, false);
+      drawMesh(CUBE, m4trs(x - sx, ly, z, 0, 0.06, 0.06, sz), '#8d959d', false, false);
+      drawMesh(CUBE, m4trs(x + sx, ly, z, 0, 0.06, 0.06, sz), '#8d959d', false, false);
+    }
+    // 一块踩板
+    drawMesh(CUBE, m4trs(x, y + hh*0.66, z, 0, sx*0.95, 0.05, sz*0.9), '#c8a06a', false, false);
+  } else if (o.kind === 'brick') {
+    // 砖堆：三层交错
+    for (var b1 = 0; b1 < 2; b1++) {
+      for (var b2 = 0; b2 < 3; b2++) {
+        var bx = x + (b2 - 1) * 1.10;
+        var by = y + 0.22 + b1 * 0.44;
+        var bz = z + (b1 % 2 ? 0.16 : -0.16);
+        drawMesh(CUBE, m4trs(bx, by, bz, o.rot * 0.05, 0.50, 0.21, 0.30), '#a4553f', false, false);
+      }
+    }
+  } else if (o.kind === 'pipe') {
+    // 水泥管，横躺着
+    drawMesh(CYL, partM(x, y + 0.95, z, 0, 0, Math.PI/2 + o.rot*0.2, 0.95, 1.9, 0.95), '#b8b2a6', false, false);
+    drawMesh(CYL, partM(x + 0.4, y + 2.55, z, 0, 0, Math.PI/2 - o.rot*0.15, 0.75, 1.5, 0.75), '#a8a294', false, false);
+  } else if (o.kind === 'cone') {
+    drawMesh(CONE, m4trs(x, y + 0.62, z, 0, 0.42, 0.6, 0.42), '#e2622c', false, false);
+    drawMesh(CUBE, m4trs(x, y + 0.02, z, 0, 0.62, 0.03, 0.62), '#d1581f', false, false);
+    drawMesh(CYL,  m4trs(x, y + 0.62, z, 0, 0.26, 0.06, 0.26), '#f4f0e8', false, false);
+  } else if (o.kind === 'rebar') {
+    // 一捆钢筋
+    for (var r1 = 0; r1 < 4; r1++) {
+      // 躺平：绕 X 转 90°，让钢筋顺着 z 方向铺开
+      drawMesh(CYL, partM(x + (r1 - 1.5) * 0.22, y + 0.16, z, Math.PI/2, 0, 0, 0.06, 2.3, 0.06), '#6b6f74', false, false);
+    }
+    drawMesh(CUBE, m4trs(x, y + 0.16, z, 0, 0.55, 0.03, 0.55), '#8b6a3f', false, false);
+  } else if (o.kind === 'sand') {
+    drawMesh(SPHERE, m4trs(x, y + 0.2, z, 0, 2.4, 1.0, 2.2), '#c9b38a', false, false);
+    drawMesh(SPHERE, m4trs(x + 0.9, y + 0.15, z - 0.6, 0, 1.4, 0.7, 1.3), '#bda67c', false, false);
+  } else if (o.kind === 'rice') {
+    var ry = o.y + Math.sin(o.bob) * 0.25;
+    drawMesh(SPHERE, m4trs(x, ry, z, 0, 0.30, 0.26, 0.30), '#f6fbff', false, true);
+    drawMesh(SPHERE, m4trs(x, ry - 0.18, z, 0, 0.36, 0.17, 0.36), '#cfe2f2', false, false);
+  } else if (o.kind === 'meat') {
+    var my = o.y + Math.sin(o.bob) * 0.25;
+    drawMesh(CUBE, m4trs(x, my, z, o.rot, 0.38, 0.22, 0.32), '#a8482f', false, false);
+    drawMesh(CUBE, m4trs(x, my + 0.12, z, o.rot, 0.32, 0.05, 0.26), '#c96a4a', false, false);
+  }
+}
+
+/* 车身局部坐标 (u 左右, w 前后) → 世界 x/z */
+function vpos(p2, ry, u, w){
+  var cs = Math.cos(ry), sn = Math.sin(ry);
+  return { x: p2.x + u*cs + w*sn, z: p2.z - u*sn + w*cs };
+}
+
+/* 车身零件：中心 (u,w)，离地 y，半尺寸 (hu, hh, hw) */
+function vbox(p2, ry, u, w, y, hu, hh, hw, col, glow){
+  var q = vpos(p2, ry, u, w);
+  drawMesh(CUBE, partM(q.x, y, q.z, 0, ry, 0, hu, hh, hw), col, false, !!glow);
+}
+
+/* 横躺的圆柱（轮子）：轴顺着车身左右 */
+function vwheel(p2, ry, u, w, y, r, half, col){
+  var q = vpos(p2, ry, u, w);
+  drawMesh(CYL, partM(q.x, y, q.z, 0, ry, Math.PI/2, r, half, r), col, false, false);
+}
+
+/* 竖立的圆柱：排气管、油桶 */
+function vpipe(p2, ry, u, w, y, r, half, col){
+  var q = vpos(p2, ry, u, w);
+  drawMesh(CYL, partM(q.x, y, q.z, 0, ry, 0, r, half, r), col, false, false);
+}
+
+function drawWheelAt(p2, ry, u, w, r){
+  var y = SEA_Y + r;
+  vwheel(p2, ry, u, w, y, r, 0.20, '#1d201a');              // 胎
+  vwheel(p2, ry, u, w, y, r * 0.55, 0.205, '#4a4e42');      // 轮毂
+}
+
+function drawJeep(p2, ry){
+  var BODY = '#4e5a36', DARK = '#3a4327', LITE = '#66744a';
+  var GLASS = '#89a7bb', TIRE = '#1d201a';
+
+  // 底盘
+  vbox(p2, ry, 0, 0, SEA_Y+0.42, 1.00, 0.16, 2.05, DARK);
+  // 车身主体
+  vbox(p2, ry, 0, 0, SEA_Y+0.78, 1.02, 0.28, 1.95, BODY);
+  // 机头（略窄略低）
+  vbox(p2, ry, 0, -1.35, SEA_Y+0.92, 0.94, 0.26, 0.62, BODY);
+  // 前格栅
+  vbox(p2, ry, 0, -1.99, SEA_Y+0.88, 0.82, 0.18, 0.05, DARK);
+  // 两个前灯
+  vbox(p2, ry, -0.62, -2.03, SEA_Y+0.95, 0.14, 0.11, 0.05, '#e8e3b6', true);
+  vbox(p2, ry,  0.62, -2.03, SEA_Y+0.95, 0.14, 0.11, 0.05, '#e8e3b6', true);
+  // 前挡（斜着）
+  var qw = vpos(p2, ry, 0, -0.62);
+  drawMesh(CUBE, partM(qw.x, SEA_Y+1.28, qw.z, 0.42, ry, 0, 0.86, 0.30, 0.05), GLASS, false, false);
+  // 敞篷驾驶位：两侧板
+  vbox(p2, ry, -0.98, 0.55, SEA_Y+1.10, 0.06, 0.28, 0.90, BODY);
+  vbox(p2, ry,  0.98, 0.55, SEA_Y+1.10, 0.06, 0.28, 0.90, BODY);
+  // 后板
+  vbox(p2, ry, 0, 1.55, SEA_Y+1.10, 0.96, 0.26, 0.06, BODY);
+  // 防滚架
+  vbox(p2, ry, -0.85, 0.10, SEA_Y+1.55, 0.06, 0.34, 0.06, DARK);
+  vbox(p2, ry,  0.85, 0.10, SEA_Y+1.55, 0.06, 0.34, 0.06, DARK);
+  vbox(p2, ry, 0, 0.10, SEA_Y+1.86, 0.90, 0.05, 0.05, DARK);
+  // 后保险杠
+  vbox(p2, ry, 0, 2.06, SEA_Y+0.55, 0.90, 0.10, 0.06, LITE);
+  // 备胎挂在车尾
+  var q2 = vpos(p2, ry, 0, 2.12);
+  drawMesh(CYL, partM(q2.x, SEA_Y+0.96, q2.z, Math.PI/2, ry, 0, 0.36, 0.12, 0.36), TIRE, false, false);
+  // 四个轮子
+  drawWheelAt(p2, ry, -1.02, -1.28, 0.36);
+  drawWheelAt(p2, ry,  1.02, -1.28, 0.36);
+  drawWheelAt(p2, ry, -1.02,  1.22, 0.36);
+  drawWheelAt(p2, ry,  1.02,  1.22, 0.36);
+}
+
+function drawTruck(p2, ry){
+  var BODY = '#4e5a36', DARK = '#3a4327', LITE = '#66744a';
+  var GLASS = '#89a7bb', TIRE = '#1d201a';
+
+  // 大梁
+  vbox(p2, ry, 0, 0.4, SEA_Y+0.55, 1.00, 0.14, 3.30, DARK);
+  // 驾驶室
+  vbox(p2, ry, 0, -2.55, SEA_Y+1.10, 1.10, 0.50, 0.80, BODY);
+  // 驾驶室顶
+  vbox(p2, ry, 0, -2.55, SEA_Y+1.66, 1.06, 0.10, 0.74, LITE);
+  // 挡风
+  var qw = vpos(p2, ry, 0, -3.28);
+  drawMesh(CUBE, partM(qw.x, SEA_Y+1.42, qw.z, 0.45, ry, 0, 1.00, 0.32, 0.05), GLASS, false, false);
+  // 侧窗
+  vbox(p2, ry, -1.06, -2.55, SEA_Y+1.36, 0.05, 0.22, 0.55, GLASS);
+  vbox(p2, ry,  1.06, -2.55, SEA_Y+1.36, 0.05, 0.22, 0.55, GLASS);
+  // 前脸 + 格栅 + 灯
+  vbox(p2, ry, 0, -3.34, SEA_Y+0.95, 1.00, 0.26, 0.06, DARK);
+  vbox(p2, ry, -0.68, -3.38, SEA_Y+1.10, 0.16, 0.12, 0.05, '#e8e3b6', true);
+  vbox(p2, ry,  0.68, -3.38, SEA_Y+1.10, 0.16, 0.12, 0.05, '#e8e3b6', true);
+  // 保险杠
+  vbox(p2, ry, 0, -3.50, SEA_Y+0.55, 1.05, 0.12, 0.07, LITE);
+  // 货厢底
+  vbox(p2, ry, 0, 0.75, SEA_Y+0.82, 1.15, 0.16, 3.05, BODY);
+  // 货厢侧板
+  vbox(p2, ry, -1.14, 0.75, SEA_Y+1.10, 0.05, 0.22, 3.05, LITE);
+  vbox(p2, ry,  1.14, 0.75, SEA_Y+1.10, 0.05, 0.22, 3.05, LITE);
+  // 帆布篷
+  vbox(p2, ry, 0, 0.75, SEA_Y+1.55, 1.10, 0.34, 2.95, BODY);
+  vbox(p2, ry, 0, 0.75, SEA_Y+1.92, 0.94, 0.09, 2.85, DARK);
+  // 篷架横梁
+  for (var i = 0; i < 4; i++) {
+    vbox(p2, ry, 0, -0.55 + i * 0.90, SEA_Y+1.94, 0.98, 0.05, 0.06, LITE);
+  }
+  // 侧面油箱
+  vpipe(p2, ry, -1.18, -1.55, SEA_Y+0.95, 0.24, 0.45, '#57603e');
+  // 排气管
+  vpipe(p2, ry, 1.12, -2.92, SEA_Y+1.70, 0.08, 1.05, '#5a5a52');
+  // 六个轮子
+  drawWheelAt(p2, ry, -1.14, -2.25, 0.42);
+  drawWheelAt(p2, ry,  1.14, -2.25, 0.42);
+  drawWheelAt(p2, ry, -1.14,  0.60, 0.42);
+  drawWheelAt(p2, ry,  1.14,  0.60, 0.42);
+  drawWheelAt(p2, ry, -1.14,  1.85, 0.42);
+  drawWheelAt(p2, ry,  1.14,  1.85, 0.42);
+}
+
+function drawWrecks(){
+  for (var i = 0; i < S.wrecks.length; i++) {
+    var w = S.wrecks[i];
+    var dark = '#2b2b27', soot = '#191917', metal = '#3a3a34';
+
+    if (w.t === 0) {
+      // 烧毁的吉普
+      drawMesh(CUBE, partM(w.x, SEA_Y+0.50, w.z, w.tilt, w.ry, 0.12, 1.00, 0.22, 1.90), dark, false, false);
+      drawMesh(CUBE, partM(w.x, SEA_Y+0.88, w.z-0.6, w.tilt*1.4, w.ry, -0.2, 0.86, 0.18, 0.66), soot, false, false);
+      drawMesh(CYL,  partM(w.x+1.35, SEA_Y+0.34, w.z+0.7, Math.PI/2, w.ry, 0, 0.34, 0.18, 0.34), soot, false, false);
+      drawMesh(CYL,  partM(w.x-0.9, SEA_Y+0.34, w.z-1.5, Math.PI/2, w.ry+0.6, 0, 0.34, 0.18, 0.34), soot, false, false);
+    } else {
+      // 烧毁的货车
+      drawMesh(CUBE, partM(w.x, SEA_Y+0.92, w.z-1.6, w.tilt, w.ry, 0.10, 1.05, 0.46, 0.78), dark, false, false);
+      drawMesh(CUBE, partM(w.x, SEA_Y+0.60, w.z+0.9, w.tilt*0.5, w.ry, 0.05, 1.10, 0.18, 2.90), soot, false, false);
+      drawMesh(CUBE, partM(w.x, SEA_Y+1.05, w.z+0.9, w.tilt*0.5, w.ry, 0.30, 0.98, 0.16, 2.55), metal, false, false);
+      drawMesh(CYL,  partM(w.x-1.45, SEA_Y+0.40, w.z+0.1, Math.PI/2, w.ry, 0, 0.42, 0.18, 0.42), soot, false, false);
+      drawMesh(CYL,  partM(w.x+1.30, SEA_Y+0.40, w.z+2.1, Math.PI/2, w.ry+0.9, 0, 0.42, 0.18, 0.42), soot, false, false);
+    }
+  }
+}
+
+function drawConvoy(){
+  if (!S.convoy.alive) return;
+  var jp = convoyAt(0);
+  drawJeep(jp, Math.PI - jp.a);
+  var tk = convoyAt(1);
+  drawTruck(tk, Math.PI - tk.a);
+}
+
+function drawParts(){
+  for (var i = 0; i < S.parts.length; i++) {
+    var p2 = S.parts[i];
+    var f2 = Math.max(0, p2.life / p2.max);
+    var rr = p2.r * (0.35 + 0.65 * f2);
+    drawMesh(SPHERE, m4trs(p2.x, p2.y, p2.z, 0, rr, rr, rr), p2.c, false, true);
+  }
+}
+
+function drawWhale(){
+  if (S.first || S.dead) return;   // 第一人称 / 爆炸中不画机身
+
+  var wp = whalePos();
+  var base = m4basis(R2, U2, F, wp[0], wp[1], wp[2]);
+  // 一块长方体，尺寸跟碰撞盒子一样
+  drawMesh(CUBE, m4mul(base, m4trs(0, 0, 0, 0, BOX_HX, BOX_HY, BOX_HZ)), '#4a7fb3', false, false);
+}
+
+/* ===== 图传噪点 ===== */
+function drawGlitch(){
+  if (!fxG) return;
+  fxG.clearRect(0, 0, window.innerWidth, window.innerHeight);
+  if (S.glitch <= 0 || !GRECT) return;
+
+  var r = GRECT;
+  var n = 3 + Math.floor(Math.random() * 5);
+  var i, y, h;
+
+  for (i = 0; i < n; i++) {
+    y = r.top + Math.random() * r.height;
+    h = 2 + Math.random() * 16;
+    fxG.fillStyle = 'rgba(255,255,255,' + (0.04 + Math.random() * 0.10).toFixed(3) + ')';
+    fxG.fillRect(r.left, y, r.width, h);
+    fxG.fillStyle = 'rgba(120,255,220,' + (0.04 + Math.random() * 0.08).toFixed(3) + ')';
+    fxG.fillRect(r.left, y + h, r.width, Math.max(1, h * 0.35));
+  }
+  for (i = 0; i < 90; i++) {
+    fxG.fillStyle = 'rgba(255,255,255,' + (Math.random() * 0.09).toFixed(3) + ')';
+    fxG.fillRect(r.left + Math.random() * r.width, r.top + Math.random() * r.height, 2, 1);
+  }
+
+  // 画面轻微抖
+  var jx = (Math.random() - 0.5) * 3.2;
+  var jy = (Math.random() - 0.5) * 3.2;
+  c.style.transform = 'translate(' + jx.toFixed(1) + 'px,' + jy.toFixed(1) + 'px)';
+}
+
+function endGlitch(){
+  if (fxG) fxG.clearRect(0, 0, window.innerWidth, window.innerHeight);
+  c.style.transform = '';
+}
+
+/* ===== 爆炸声 ===== */
+function boomSound(){
+  if (!AC) return;
+  var t = AC.currentTime;
+
+  // 低频闷响
+  var o = AC.createOscillator();
+  o.type = 'sine';
+  o.frequency.setValueAtTime(130, t);
+  o.frequency.exponentialRampToValueAtTime(36, t + 0.55);
+  var g = AC.createGain();
+  g.gain.setValueAtTime(0.55, t);
+  g.gain.exponentialRampToValueAtTime(0.001, t + 0.75);
+  o.connect(g); g.connect(AC.destination);
+  o.start(t); o.stop(t + 0.8);
+
+  // 噪声爆裂
+  var len = Math.floor(AC.sampleRate * 0.9);
+  var buf = AC.createBuffer(1, len, AC.sampleRate);
+  var d = buf.getChannelData(0);
+  for (var i = 0; i < len; i++) {
+    var e = 1 - i / len;
+    d[i] = (Math.random() * 2 - 1) * e * e;
+  }
+  var src = AC.createBufferSource();
+  src.buffer = buf;
+  var f = AC.createBiquadFilter();
+  f.type = 'lowpass';
+  f.frequency.setValueAtTime(2200, t);
+  f.frequency.exponentialRampToValueAtTime(180, t + 0.65);
+  var g2 = AC.createGain();
+  g2.gain.setValueAtTime(0.18, t);
+  g2.gain.exponentialRampToValueAtTime(0.001, t + 0.85);
+  src.connect(f); f.connect(g2); g2.connect(AC.destination);
+  src.start(t);
+}
+
+/* ===== 桨叶 / 电机声 ===== */
+var AC = null, oscA = null, oscB = null, filtN = null, gainN = null, noiseG = null;
+
+function initAudio(){
+  if (AC) { if (AC.state === 'suspended') AC.resume(); return; }
+  var Ctx = window.AudioContext || window.webkitAudioContext;
+  if (!Ctx) return;
+  AC = new Ctx();
+
+  gainN = AC.createGain();
+  gainN.gain.value = 0;
+  filtN = AC.createBiquadFilter();
+  filtN.type = 'lowpass';
+  filtN.frequency.value = 700;
+  gainN.connect(AC.destination);
+  filtN.connect(gainN);
+
+  oscA = AC.createOscillator();
+  oscA.type = 'sawtooth';
+  oscA.frequency.value = 110;
+  oscB = AC.createOscillator();
+  oscB.type = 'square';
+  oscB.frequency.value = 168;
+  oscA.connect(filtN);
+  oscB.connect(filtN);
+  oscA.start();
+  oscB.start();
+
+  // 风声
+  var len = Math.floor(AC.sampleRate * 2);
+  var buf = AC.createBuffer(1, len, AC.sampleRate);
+  var d = buf.getChannelData(0);
+  for (var i = 0; i < len; i++) d[i] = (Math.random() * 2 - 1) * 0.4;
+  var src = AC.createBufferSource();
+  src.buffer = buf;
+  src.loop = true;
+  var nf = AC.createBiquadFilter();
+  nf.type = 'bandpass';
+  nf.frequency.value = 620;
+  nf.Q.value = 0.7;
+  noiseG = AC.createGain();
+  noiseG.gain.value = 0;
+  src.connect(nf); nf.connect(noiseG); noiseG.connect(AC.destination);
+  src.start();
+}
+
+function updateAudio(){
+  if (!AC) return;
+  var t = AC.currentTime;
+  var on = S.started && !S.dead;
+  var base = 95 + S.throttle * 42;
+  oscA.frequency.setTargetAtTime(base, t, 0.08);
+  oscB.frequency.setTargetAtTime(base * 1.51, t, 0.08);
+  filtN.frequency.setTargetAtTime(520 + S.throttle * 260, t, 0.10);
+
+  var g = on ? 0.045 : 0.0;
+  gainN.gain.setTargetAtTime(g, t, 0.12);
+  if (noiseG) noiseG.gain.setTargetAtTime(on ? (0.011 + (S.speed || 0) * 0.040) : 0, t, 0.15);
+}
+
+var hzEl = document.getElementById('hz');
+function updateHorizon(){
+  if (!hzEl) return;
+  var deg = rollAngle() * 180 / Math.PI;
+  hzEl.style.transform = 'rotate(' + deg.toFixed(1) + 'deg)';
+}
+
+function render(){
+  gl.clearColor(0, 0, 0, 0);
+  gl.clear(gl.COLOR_BUFFER_BIT | gl.DEPTH_BUFFER_BIT);
+  gl.enable(gl.DEPTH_TEST);
+  gl.depthFunc(gl.LEQUAL);
+  gl.disable(gl.CULL_FACE);
+
+  frame();
+  gl.uniform3fv(U.light, LIGHT);
+  gl.uniform3fv(U.fog, FOG);
+  gl.uniform3f(U.eye, S.px, S.py, S.pz);
+
+  drawSea();
+
+  // 整栋楼：一堆混凝土盒子，远的先画
+  var bl = S.static.slice().sort(function(a, b){
+    var da = (a.x-S.px)*(a.x-S.px) + (a.z-S.pz)*(a.z-S.pz);
+    var db = (b.x-S.px)*(b.x-S.px) + (b.z-S.pz)*(b.z-S.pz);
+    return db - da;
+  });
+  for (var bi = 0; bi < bl.length; bi++) {
+    var bx = bl[bi];
+    drawMesh(CUBE, m4trs(bx.x, bx.y, bx.z, 0, bx.hx, bx.hy, bx.hz), bx.c, false, false);
+  }
+
+  drawConvoy();
+  drawWrecks();
+  drawParts();
+
+  var list = S.objs.slice().sort(function(a, b){
+    var da = (a.x-S.px)*(a.x-S.px) + (a.z-S.pz)*(a.z-S.pz);
+    var db = (b.x-S.px)*(b.x-S.px) + (b.z-S.pz)*(b.z-S.pz);
+    return db - da;
+  });
+  for (var i = 0; i < list.length; i++) drawObj(list[i]);
+
+  drawWhale();
+  updateHorizon();
+}
+
+var fpsFrames = 0, fpsLast = (window.performance || Date).now();
+function tickFps(){
+  fpsFrames++;
+  var now = (window.performance || Date).now();
+  if (now - fpsLast >= 500) {
+    var f = Math.round(fpsFrames * 1000 / (now - fpsLast));
+    var el = document.getElementById('fps');
+    if (el) el.textContent = f + ' fps';
+    fpsFrames = 0; fpsLast = now;
+  }
+}
+
+var lastT = 0;
+function loop(ts){
+  var now = ts || ((window.performance || Date).now());
+  if (!lastT) lastT = now;
+  var dt = now - lastT;
+  lastT = now;
+  if (dt > 60) dt = 60;        // 掉帧时别让物理跳步
+  if (dt < 1)  dt = 1;
+  var k = dt / 16.6667;        // 60fps 时 k≈1
+
+  update(k);
+  render();
+
+  // 图传噪点
+  if (S.glitch > 0) {
+    S.glitch -= k;
+    if (S.glitch <= 0) endGlitch();
+  } else if (S.started && !S.dead && Math.random() < 0.0025 + (S.speed || 0) * 0.008) {
+    S.glitch = 3 + Math.random() * 7;
+  }
+  drawGlitch();
+
+  updateAudio();
+  tickFps();
+  requestAnimationFrame(loop);
+}
+
+/* ================= HUD ================= */
+function syncHUD(){
+  document.getElementById('score').textContent = '💥 ' + S.score;
+}
+function syncGauges(){
+  var kmh = (S.speed || 0) * 60 * 3.6;
+  var alt = S.py - SEA_Y;
+
+  document.getElementById('spdNum').textContent = kmh.toFixed(0);
+  document.getElementById('altNum').textContent = alt.toFixed(0);
+
+  var sb = document.getElementById('spdBar');
+  sb.style.width = Math.min(100, kmh / 420 * 100) + '%';
+  sb.className = 'gfill' + (kmh > 90 ? ' warm' : '');
+
+  var ab = document.getElementById('altBar');
+  ab.style.width = Math.min(100, alt / 125 * 100) + '%';
+  ab.className = 'gfill' + (alt < 5 ? ' warm' : '');
+
+  var b = Math.max(0, S.batt);
+  var bt = document.getElementById('battNum');
+  var bb = document.getElementById('battBar');
+  if (bt) bt.textContent = Math.round(b);
+  if (bb) {
+    bb.style.width = b + '%';
+    bb.className = 'gfill' + (b < 20 ? ' warm' : '');
+  }
+
+  var pct = (S.throttle - 0.4) / 5.6 * 100;
+  document.getElementById('tfill').style.height = pct + '%';
+  document.getElementById('handle').style.bottom = (10 + pct * 0.86) + '%';
+  document.getElementById('handle').textContent = S.throttle.toFixed(1);
+}
+
+/* ================= 输入 ================= */
+var lookId = null, lx = 0, ly = 0;
+function findTouch(list, id){
+  for (var i = 0; i < list.length; i++) if (list[i].identifier === id) return list[i];
+  return null;
+}
+
+c.addEventListener('touchstart', function(e){
+  e.preventDefault();
+  if (lookId !== null) return;
+  var t = e.changedTouches[0];
+  lookId = t.identifier; lx = t.clientX; ly = t.clientY;
+}, { passive: false });
+
+c.addEventListener('touchmove', function(e){
+  e.preventDefault();
+  var t = findTouch(e.touches, lookId);
+  if (!t) return;
+  var k = W / c.getBoundingClientRect().width;
+  var dx = (t.clientX - lx) * k, dy = (t.clientY - ly) * k;
+  S.yawV   += dx * 0.0011;
+  S.pitchV -= dy * 0.0011;
+  S.yawV   = Math.max(-0.14, Math.min(0.14, S.yawV));
+  S.pitchV = Math.max(-0.12, Math.min(0.12, S.pitchV));
+  lx = t.clientX; ly = t.clientY;
+}, { passive: false });
+
+c.addEventListener('touchend', function(e){
+  if (findTouch(e.changedTouches, lookId)) lookId = null;
+});
+c.addEventListener('touchcancel', function(){ lookId = null; });
+
+var mDown = false;
+c.addEventListener('mousedown', function(e){ e.preventDefault(); mDown = true; lx = e.clientX; ly = e.clientY; });
+c.addEventListener('mousemove', function(e){
+  if (!mDown) return;
+  var k = W / c.getBoundingClientRect().width;
+  S.yawV   += (e.clientX - lx) * 0.0011 * k;
+  S.pitchV -= (e.clientY - ly) * 0.0011 * k;
+  S.yawV   = Math.max(-0.14, Math.min(0.14, S.yawV));
+  S.pitchV = Math.max(-0.12, Math.min(0.12, S.pitchV));
+  lx = e.clientX; ly = e.clientY;
+});
+c.addEventListener('mouseup', function(){ mDown = false; });
+
+/* 视角切换 */
+var viewBtn = document.getElementById('viewBtn');
+function toggleView(){
+  S.first = !S.first;
+  viewBtn.textContent = S.first ? '一人称' : '三人称';
+}
+viewBtn.addEventListener('click', function(e){
+  e.preventDefault(); e.stopPropagation();
+  toggleView();
+});
+
+/* 滚转按钮 */
+function holdRoll(id, val){
+  var el = document.getElementById(id);
+  function on(e){ if (e) e.preventDefault(); el.classList.add('on'); S.rollIn = val; }
+  function off(){ el.classList.remove('on'); if (S.rollIn === val) S.rollIn = 0; }
+  el.addEventListener('touchstart', on, { passive: false });
+  el.addEventListener('touchend', off);
+  el.addEventListener('touchcancel', off);
+  el.addEventListener('mousedown', on);
+  el.addEventListener('mouseup', off);
+  el.addEventListener('mouseleave', off);
+}
+holdRoll('rollL', -1);
+holdRoll('rollR',  1);
+
+/* 启动 */
+document.getElementById('startBtn').addEventListener('click', function(e){
+  e.preventDefault(); e.stopPropagation();
+  launch();
+});
+
+/* 广角 / 标准 */
+var fovBtn = document.getElementById('fovBtn');
+function setFov(wide){
+  S.wide = !!wide;
+  PROJ = m4persp((S.wide ? 88 : 70) * Math.PI / 180, W / H, 0.08, 260);
+  fovBtn.textContent = S.wide ? '广角' : '标准';
+}
+fovBtn.addEventListener('click', function(e){
+  e.preventDefault(); e.stopPropagation();
+  setFov(!S.wide);
+});
+
+/* 节流阀 */
+function bump(d){
+  S.throttle = Math.max(0.4, Math.min(6.0, Math.round((S.throttle + d) * 10) / 10));
+  syncGauges();
+}
+
+var leverEl = document.getElementById('lever');
+var levId = null, levDown = false;
+
+function setThrottleFromY(clientY){
+  var r = document.getElementById('track').getBoundingClientRect();
+  var t = 1 - (clientY - r.top) / r.height;
+  if (t < 0) t = 0;
+  if (t > 1) t = 1;
+  S.throttle = Math.round((0.4 + t * 5.6) * 20) / 20;
+  syncGauges();
+}
+
+leverEl.addEventListener('touchstart', function(e){
+  e.preventDefault(); e.stopPropagation();
+  levId = e.changedTouches[0].identifier;
+  setThrottleFromY(e.changedTouches[0].clientY);
+}, { passive: false });
+
+window.addEventListener('touchmove', function(e){
+  if (levId === null) return;
+  var t = findTouch(e.touches, levId);
+  if (!t) return;
+  e.preventDefault();
+  setThrottleFromY(t.clientY);
+}, { passive: false });
+
+window.addEventListener('touchend', function(e){
+  if (levId !== null && !findTouch(e.touches, levId)) levId = null;
+});
+
+leverEl.addEventListener('mousedown', function(e){
+  e.preventDefault(); e.stopPropagation();
+  levDown = true; setThrottleFromY(e.clientY);
+});
+window.addEventListener('mousemove', function(e){ if (levDown) setThrottleFromY(e.clientY); });
+window.addEventListener('mouseup', function(){ levDown = false; });
+
+var keys = {}, keyLook = { left:0, right:0, up:0, down:0 };
+window.addEventListener('keydown', function(e){
+  var k = e.key.toLowerCase();
+  keys[k] = 1;
+  if (k === 'arrowleft') keyLook.left = 1;
+  if (k === 'arrowright') keyLook.right = 1;
+  if (k === 'arrowup') keyLook.up = 1;
+  if (k === 'arrowdown') keyLook.down = 1;
+  if (k === '+' || k === '=') bump(0.2);
+  if (k === '-' || k === '_') bump(-0.2);
+  if (k === 'v' || k === 'c') toggleView();
+  if (k === 'f') setFov(!S.wide);
+  if (k === 'z') S.rollIn = -1;
+  if (k === 'x') S.rollIn = 1;
+});
+window.addEventListener('keyup', function(e){
+  var k = e.key.toLowerCase();
+  keys[k] = 0;
+  if (k === 'arrowleft') keyLook.left = 0;
+  if (k === 'arrowright') keyLook.right = 0;
+  if (k === 'arrowup') keyLook.up = 0;
+  if (k === 'arrowdown') keyLook.down = 0;
+  if (k === 'z' && S.rollIn === -1) S.rollIn = 0;
+  if (k === 'x' && S.rollIn === 1) S.rollIn = 0;
+});
+
+/* ================= 启动 ================= */
+resize();
+buildSite();
+spawnRandom();
+showStart();
+syncHUD();
+syncGauges();
+setTimeout(function(){
+  var tip = document.getElementById('tip');
+  if (tip) tip.style.opacity = '0';
+}, 6500);
+
+requestAnimationFrame(loop);
+
+})();
+</script>
+</body>
+</html>
